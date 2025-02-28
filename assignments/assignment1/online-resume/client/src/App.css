@@ -1,0 +1,151 @@
+/* Set the background color of the entire page */
+body {
+  background-color: white; /* Background color of the page */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Use a consistent font for the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Page Wrapper - Center the content */
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: white; /* Background color of the page */
+}
+
+/* Resume Container - White Background with Shadow */
+.resume {
+  background-color: white; /* White background for the resume card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+  border-radius: 8px; /* Rounded corners for the card */
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  line-height: 1.5; /* Adjust line height for better spacing */
+  color: black; /* Set text color inside the resume card to black */
+  margin: 0 auto;
+}
+
+/* Personal Info */
+.personal-info {
+  text-align: center;
+  margin-bottom: 20px; /* Reduced margin for personal info */
+}
+
+.personal-info h1 {
+  margin-bottom: 5px; /* Smaller margin for the name */
+  font-size: 24px;
+  color: black; /* Set the color of the name to black */
+}
+
+.personal-info p {
+  font-size: 16px; /* Adjusted font size */
+  color: black; /* Set color of the personal information text to black */
+  margin: 0; /* Removed extra margin */
+}
+
+/* Underline style */
+.underline {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0; /* Reduced margin */
+}
+
+/* Objective */
+.objective {
+  margin-top: 10px; /* Reduced margin */
+  color: black; /* Set text color to black */
+}
+
+/* Summary of Qualifications */
+.summary {
+  margin-top: 10px; /* Reduced margin */
+}
+
+.summary ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0; /* Reduced margin */
+  color: black; /* Set text color to black */
+}
+
+/* Education */
+.education ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.education li {
+  margin-bottom: 5px; /* Reduced margin */
+  color: black; /* Set text color to black */
+}
+
+/* Academic Projects */
+.projects ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.projects li {
+  margin-bottom: 5px; /* Reduced margin */
+  color: black; /* Set text color to black */
+}
+
+/* Skills */
+.skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills li {
+  margin-bottom: 5px; /* Reduced margin */
+  color: black; /* Set text color to black */
+}
+
+/* Experience */
+.experience ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.experience li {
+  margin-bottom: 10px; /* Reduced margin */
+  color: black; /* Set text color to black */
+}
+
+.experience ul li ul {
+  list-style-type: circle;
+  padding-left: 20px;
+  color: black; /* Set text color to black */
+}
+/* Summary of Qualifications, Education, Academic Projects, Skills, and Experience */
+.summary ul,
+.education ul,
+.projects ul,
+.skills ul,
+.experience ul {
+  list-style-type: disc; /* Bullet points for all lists */
+  padding-left: 20px; /* Indentation for bullet points */
+  margin: 0; /* Removed extra margin */
+}
+
+.summary li,
+.education li,
+.projects li,
+.skills li,
+.experience li {
+  color: black; /* Set text color to black */
+}
+
+/* Experience - Nested Lists */
+.experience ul li ul {
+  list-style-type: circle; /* Use circles for sub-list items */
+  padding-left: 20px; /* Indentation for sub-items */
+  color: black; /* Set text color to black */
+}
