@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css'; // Make sure your CSS is linked
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import './App.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; // Importing Bootstrap CSS
 
 function App() {
   return (
