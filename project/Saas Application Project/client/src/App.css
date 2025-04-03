@@ -1,0 +1,79 @@
+/* App.css */
+
+body {
+  background-color: #18005f; /* Background color */
+  color: #ffffff; /* Text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #20005e; /* Dark purple navbar */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #3f0059; /* Lighter purple on hover */
+}
+
+/* Button styles */
+button {
+  background-color: #2f005c; /* Purple button color */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #37005b; /* Darker purple on hover */
+}
+
+/* Card styles */
+.card {
+  background-color: #28005d; /* Medium purple for cards */
+  color: #ffffff;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Primary color for highlights or links */
+.primary-color {
+  color: #3f0059; /* Slightly lighter purple for primary elements */
+}
+
+/* Footer styles */
+.footer {
+  background-color: #470058; /* Dark purple footer */
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+}

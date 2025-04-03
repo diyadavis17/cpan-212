@@ -1,0 +1,70 @@
+/* Body Setup */
+body {
+  background-color: white; /* White background */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Consistent font */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the content */
+}
+
+/* Center Content */
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px;
+  background-color: white; /* White background */
+}
+
+/* Resume Card */
+.resume {
+  background-color: white; /* White card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  color: black; /* Black text color */
+}
+
+/* Personal Info Section */
+.personal-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.personal-info h1 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.personal-info p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Horizontal Line */
+.underline {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+/* Section Titles and Lists */
+.summary ul, .education ul, .projects ul, .skills ul, .experience ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.summary li, .education li, .projects li, .skills li, .experience li {
+  color: black;
+}
+
+/* Nested List Style (for sub-items in experience) */
+.experience ul li ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
